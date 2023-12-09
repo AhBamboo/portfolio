@@ -32,10 +32,14 @@ const HeroSection = () => {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString('&lt;span style="color:#9E7BFF"&gt;Asia Pacific University&lt;/span&gt;')
+                    .typeString(
+                      '<span style="color:#9E7BFF">Asia Pacific University</span>'
+                    )
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString('&lt;span style="color:#9E7BFF"&gt;Studying Cyber Security&lt;/span&gt;')
+                    .typeString(
+                      '<span style="color:#9E7BFF">Studying Cyber Security</span>'
+                    )
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
@@ -53,7 +57,7 @@ const HeroSection = () => {
             <span className="text-xl text-white">Projects</span>
           </Link>
           <Link
-            href="https://www.google.com/"
+            href="https://drive.google.com/file/d/1ajOJwhrua1lElHtbVjzOv12ySXn8xPBa/view?usp=sharing"
             className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-blue-500 hover:bg-blue-400"
           >
             <span className="text-xl text-white">View my Resume</span>
