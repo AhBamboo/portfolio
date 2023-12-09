@@ -15,14 +15,14 @@ const HeroSection = () => {
           className="col-span-1 md:col-span-8 place-self-center justify-self-start"
         >
           <h1 className="font-extrabold">
-            {/* span text separator -- for design */}
+            {/* span text separator -- for design*/}
             <span className="text-white text-8xl ">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 BOO
               </span>
             </span>
-            <br></br>
+            <br />
             <span className="text-7xl">
               Student From
               <TypeWritter
@@ -32,15 +32,11 @@ const HeroSection = () => {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString(
-                      `<span style="color:#9E7BFF">Asia Pacific University</span>`
-                    )
+                    .typeString('<span style="color:#9E7BFF">Asia Pacific University</span>')
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString(
-                      `<span style="color:#9E7BFF">Studying Cyber Security&rsquo;s</span>`
-
-                    )
+                    typewriter
+                    .typeString('<span style="color:#9E7BFF">Studying Cyber Security</span>')
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
@@ -57,9 +53,8 @@ const HeroSection = () => {
           >
             <span className="text-xl text-white">Projects</span>
           </Link>
-
           <Link
-            href="https://google.com/"
+            href="https://drive.google.com/file/d/1ajOJwhrua1lElHtbVjzOv12ySXn8xPBa/view?usp=sharing"
             className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-blue-500 hover:bg-blue-400"
           >
             <span className="text-xl text-white">View my Resume</span>
