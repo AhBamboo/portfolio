@@ -38,7 +38,8 @@ const HeroSection = () => {
                     .pauseFor(1500)
                     .deleteAll()
                     .typeString(
-                      `<span style="color:#9E7BFF">Studying Cyber Security</span>`
+                      `<span style="color:#9E7BFF">Studying Cyber Security&rsquo;s</span>`
+
                     )
                     .pauseFor(1500)
                     .deleteAll()
