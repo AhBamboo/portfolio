@@ -32,11 +32,10 @@ const HeroSection = () => {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString('<span style="color:#9E7BFF">Asia Pacific University</span>')
+                    .typeString('&lt;span style="color:#9E7BFF"&gt;Asia Pacific University&lt;/span&gt;')
                     .pauseFor(1500)
                     .deleteAll()
-                    typewriter
-                    .typeString('<span style="color:#9E7BFF">Studying Cyber Security</span>')
+                    .typeString('&lt;span style="color:#9E7BFF"&gt;Studying Cyber Security&lt;/span&gt;')
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
